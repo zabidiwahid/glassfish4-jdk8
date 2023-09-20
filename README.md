@@ -17,7 +17,7 @@ GlassFish can sometimes encounter SSL handshake problems due to trust issues wit
 
  ### Without Docker Approach  
 
- 1. For a traditional approach without docker, you can follow the step in the Dockerfile on importing .der certificate into the GlassFish truststore (cacerts.jks) using the keytool
+ 1. For a traditional approach without docker, you can follow the steps in the Dockerfile on importing .der certificate into the GlassFish truststore (cacerts.jks) using the keytool
 
 **Note:** You can get the .der certificate by go to that particular URL using any browser and click the :lock: to download. Save it as .der
 
