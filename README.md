@@ -1,4 +1,4 @@
-# GlassFish 4 Docker Image with JDK 8 and SSL Handshake Prevention
+## GlassFish 4 Docker Image with JDK 8 and SSL Handshake Prevention
 
 This repository contains a Dockerfile and associated files to build a Docker image for GlassFish 4 with JDK 8. 
 The primary focus of this image is to address and prevent SSL handshake issues in GlassFish.
