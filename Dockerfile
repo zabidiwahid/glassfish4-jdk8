@@ -5,7 +5,7 @@ COPY google.der /tmp/google.der
 
 # For JNDI @ DB Conn Pool. Change in the domain.xml
 COPY mysql-connector-java-commercial-5.1.14-bin.jar /usr/local/glassfish4/glassfish/lib/
-COPY domain.xml /usr/local/glassfish4/glassfish/domains/domain1/config/
+# COPY domain.xml /usr/local/glassfish4/glassfish/domains/domain1/config/
 
 # Import the .der certificate into the GlassFish truststore (cacerts.jks)
 RUN keytool -import -trustcacerts -noprompt -alias cascrt -file /tmp/google.der -keystore /usr/local/glassfish4/glassfish/domains/domain1/config/cacerts.jks -storepass changeit
