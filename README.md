@@ -5,9 +5,9 @@ The primary focus of this image is to address and prevent SSL handshake issues i
 
 ## SSL Handshake Prevention
 
-### Docker Approach
-
 GlassFish can sometimes encounter SSL handshake problems due to trust issues with certificates. To prevent these issues and ensure secure SSL/TLS connections, you can follow these essential steps:
+
+### Docker Approach
 
 1. cd repo
 
@@ -17,7 +17,7 @@ GlassFish can sometimes encounter SSL handshake problems due to trust issues wit
 
  ### Without Docker Approach  
 
- For a traditional approach without docker, you can follow the step in the Dockerfile on importing .der certificate into the GlassFish truststore (cacerts.jks)
+ 1. For a traditional approach without docker, you can follow the step in the Dockerfile on importing .der certificate into the GlassFish truststore (cacerts.jks)
 
 **Note:** You can get the .der certificate by go to that particular URL using any browser and click the :lock: icon to download. Save it as .der
 
